@@ -1,0 +1,42 @@
+{
+  "name": "test-sass",
+  "version": "1.0.0",
+  "description": "Aptitude test the tests a candidates ability to implement CSS via Sass in an effective an scalable manner",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm run clean && npm run build:scss && npm run build:assets",
+    "build:assets": "node server/build-assets.js",
+    "build:scss": "node server/build-scss.js",
+    "build:html": "node server/build-html.js",
+    "clean": "node server/clean.js",
+    "start": "npm run build && node server/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Danny Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devdannym/webdev-exercise/issues"
+  },
+  "homepage": "https://github.com/devdannym/webdev-exercise#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.0",
+    "jquery-viewer": "^1.0.1",
+    "popper.js": "^1.16.0",
+    "prettier": "^2.1.2",
+    "viewerjs": "^1.5.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "chokidar": "^3.4.2",
+    "concurrently": "^5.3.0",
+    "live-server": "^1.2.1",
+    "postcss": "^8.1.1",
+    "sass": "1.26.3",
+    "shelljs": "^0.8.4"
+  }
+}

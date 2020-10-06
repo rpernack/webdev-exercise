@@ -1,0 +1,39 @@
+Add 3 Menu links
+Link 1
+    Text: Home
+    Link: /
+Link 2
+    Text: Menu
+    Link /menu
+Link 3
+    Text: About Us
+    Link: /about-us
+
+Add the tag line
+We Got Food!
+
+Section 1
+Our Food
+Bacon ipsum dolor amet kielbasa beef ribs biltong, shank turkey beef pig jowl fatback tail shankle. Strip steak chicken shank corned beef hamburger shankle flank short ribs picanha frankfurter chuck bresaola swine. Shankle ground round kielbasa, landjaeger pig flank beef meatloaf. Ground round biltong pork loin ham picanha, drumstick buffalo shankle burgdoggen. Sausage frankfurter salami andouille, pork chop kevin cupim kielbasa short ribs tenderloin alcatra. Hamburger ball tip shoulder, strip steak sirloin rump shank.
+
+CTA 1
+Text: Order Now
+Link: /order
+
+CTA 2
+Text: View Menu
+Link: /menu
+
+Image: Hambuger.png
+
+Section 2
+Join Our Club
+Chicken pork pork belly. Andouille ground round biltong, doner strip steak alcatra filet mignon corned beef tenderloin jowl meatloaf tri-tip boudin.CTA 1
+
+Text: Join Now
+Link: /join-club
+Image: club.png
+
+Footer
+Certified Fresh
+Spare ribs chuck bresaola bacon. Turkey pastrami beef ribs boudin pork belly swine drumstick picanha t-bone pork pancetta salami jerky bacon.

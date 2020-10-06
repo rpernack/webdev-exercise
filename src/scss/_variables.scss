@@ -1,0 +1,141 @@
+// Variables
+
+//- Override and add to color system
+
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #F0EBE1;  
+$gray-300: #dee2e6 !default;
+$gray-400: #cccccc;
+$gray-500: #adb5bd !default;
+$gray-600: #808080;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+$golden: #f1d05d;
+
+// fusv-disable
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// fusv-enable
+
+$blue:    #214d67 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #F1CF52 !default;
+$green:   #a6c54c !default;
+$teal:    #20c997 !default;
+$cyan:    #00abc7;
+$cyan-light: #47c0d2;
+
+$primary:       $blue !default;
+$secondary:     $green !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200;
+$light-gray:    $gray-400;
+$mid-light:     $gray-600;
+$dark:          $gray-800 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "mid-light":  $mid-light,
+  "light-gray": $light-gray,
+  "dark":       $dark
+);
+
+$white-transparent: rgb(255 255 255 / 0.93);
+
+//- Override font system
+$font-family-sans-serif: 'Nunito Sans', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji';
+$font-family-cursive: 'Bebas Neue', sans-serif;
+$font-family-serif: 'Playfair Display', serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji';
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-serif;
+
+//- Add custom variables
+$navbar-height: 5.75rem;
+$font-weight-base: 200;
+$font-weight-900: 900;
+$headings-color: #214d67;
+$headings-font-weight: bold;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25, // 4px
+  2: $spacer * .5,  // 8px
+  3: $spacer,       // 16px
+  4: $spacer * 1.5, // 24px
+  5: $spacer * 3,   // 48px;
+  6: $spacer * 4.5, // 72px
+);
+
+$paragraph-margin-bottom:   1.5rem;
+
+$font-size-base:              1rem;
+$h1-font-size-plus:           $font-size-base * 2.75;
+$h2-font-size-plus:           $font-size-base * 2.25;  
+$h3-font-size-plus:           $font-size-base * 2.0;
+$h4-font-size-plus:           $font-size-base * 1.75;
+$h5-font-size-plus:           $font-size-base * 1.5;
+$h6-font-size-plus:           $font-size-base;
+
+$headings-margin-bottom:      $spacer * 1.5;
+
+$anchor-text: 1.15rem;
+$font-cursive-letter-spacing: 0.011811rem;
+$navbar-link-size: $font-size-base * 1.25;
+$font-size-model-popup-anchor: 0.8rem;
+$font-size-thumbnail-title:1.35rem;
+
+$link-hover-color:                        $cyan;
+$link-hover-decoration:                   underline;
+
+$btn-border-radius: 0;
+
+
+$body-color:                #231f20;
+
+$border-width:                2px;
+$border-radius:               0;
+$border-radius-lg:            0;
+$border-radius-sm:            0;
+
+$table-dark-bg:               #214d66;
+$table-dark-border-color:     #214d66;
+$table-border-width:          0;
+$table-striped-order:         even;
+$table-accent-bg:             #f7f4ef;
+
+$table-cell-padding:              1.5rem;
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-link-hover-bg:            transparent;
+$dropdown-link-active-bg:           transparent;
