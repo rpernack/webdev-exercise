@@ -5,7 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
   <link rel="stylesheet" href="/dist/styles.css" />
+
   <title>Food N Stuff</title>
 </head>
 
@@ -21,13 +23,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="/menu">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="/about-us">About Us</a>
           </li>
         </ul>
         <span class="navbar-text">
@@ -102,10 +104,80 @@
       </a>
     </div>
     <!-- /.carousel -->
-  </div>
 
+    <!-- Main Body Content -->
+    <div class="cntainer" id="mainContent">
+      
+      <div class="row mb-5">
+        <div class="col-6">
+          <h2 class="font-weight-bold">Our Food</h2> 
+          <p>Bacon ipsum dolor amet kielbasa beef ribs biltong, shank turkey beef pig jowl fatback tail shankle. Strip steak chicken shank corned beef hamburger shankle flank short ribs picanha frankfurter chuck bresaola swine. Shankle ground round kielbasa, landjaeger pig flank beef meatloaf. Ground round biltong pork loin ham picanha, drumstick buffalo shankle burgdoggen. Sausage frankfurter salami andouille, pork chop kevin cupim kielbasa short ribs tenderloin alcatra. Hamburger ball tip shoulder, strip steak sirloin rump shank.</p>
+          <div class="wrapper">
+            <a href="/order"> <span class="btn btn-sm btn-primary">Order Now</span></a>
+            <a href="/menu"> <span class="btn btn-sm btn-outline-warning">View Menu</span></a>
+          </div>
+        </div>
+         <div class="col-6 d-flex justify-content-end"><img src="./design/hambuger.png" alt="responsive image" class="d-block"></div>
+      </div>
+       <div class="row mb-5">
+         <div class="col-6 d-flex justify-content-start"><img src="./design/club.png" alt="responsive image" class="d-block"></div>
+        <div class="col-6  d-flex flex-wrap align-content-center">
+         
+            <h2 class="w-100 font-weight-bold">Join Our Club</h2> 
+          
+          
+          <p>Chicken pork pork belly. Andouille ground round biltong, doner strip steak alcatra filet mignon corned beef tenderloin jowl meatloaf tri-tip boudin.</p>
+        
+          <div class="wrapper w-100">
+           <a href="/join-club"> <span class="btn btn-sm btn-outline-primary">Learn More</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+  <footer class="bg-light pt-2">
+    <div class="container mt-5 mb-5">
+    <div class="row d-flex w-100">
+      <div class="col-6">
+        <h4 class="font-weight-bold">Certified Fresh</h4>
+        <p>
+          Spare ribs chuck bresaola bacon. Turkey pastrami beef ribs boudin pork belly swine drumstick picanha t-bone pork pancetta salami jerky bacon.
+        </p>
+      </div>
+     <div class="col-6 d-flex justify-content-end text-right">
+        <div class="col-2">
+        <h4 class="font-weight-bold">Links</h4>
+        <ul class="list-unstyled text-left">
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+          <li>Link 4</li>
+        </ul>
+      </div>
+      <div class="col-4"></div>
+      <div class="col-2">
+        <h4 class="font-weight-bold">Links</h4>
+        <ul class="list-unstyled text-left">
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+          <li>Link 4</li>
+        </ul>
+      </div>
+     </div>
+      </div>
+    </div>
+    <div class="copyright col-12 text-center pb-5"><p>&#169; 2020 Copyright: <span class="text-primary">Food N Stuff Inc.</span></p></div>
+  </footer>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+
+  
 
 </body>
 
